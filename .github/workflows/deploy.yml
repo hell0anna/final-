@@ -15,27 +15,29 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: pnpm/action-setup@v3
+      
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v3
         with:
           version: 9
-      - uses: actions/setup-node@v4
+          
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: 'pnpm'
-          cache-dependency-path: './V4/pnpm-lock.yaml'
-      
+          
       - name: Install dependencies
         run: pnpm install
-        working-directory: ./V4
         
       - name: Build
         run: pnpm run build
-        working-directory: ./V4
         
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './V4/dist'
+          # Vite складывает результат сборки в папку dist в корне
+          path: './dist'
 
   deploy:
     environment:
