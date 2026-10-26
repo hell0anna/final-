@@ -1,0 +1,9 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Curve">
+<circle id="Curve circle" cx="10" cy="10" r="10" fill="#F72C32"/>
+<g id="Curve cross">
+<path d="M13.6209 6.37915C13.9213 6.67955 13.9213 7.1666 13.6209 7.46701L7.46701 13.6209C7.1666 13.9213 6.67955 13.9213 6.37915 13.6209C6.07875 13.3204 6.07875 12.8334 6.37915 12.533L12.533 6.37915C12.8334 6.07875 13.3204 6.07875 13.6209 6.37915Z" fill-rule="evenodd" clip-rule="evenodd" fill="white"/>
+<path d="M6.37915 6.37915C6.67955 6.07875 7.1666 6.07875 7.46701 6.37915L13.6209 12.533C13.9213 12.8334 13.9213 13.3204 13.6209 13.6209C13.3204 13.9213 12.8334 13.9213 12.533 13.6209L6.37915 7.46701C6.07875 7.1666 6.07875 6.67955 6.37915 6.37915Z" fill-rule="evenodd" clip-rule="evenodd" fill="white"/>
+</g>
+</g>
+</svg>

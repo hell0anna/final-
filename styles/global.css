@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'Inter:Bold';
+  src: url('/fonts/inter.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Inter:Medium';
+  src: url('/fonts/inter.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Inter:Regular';
+  src: url('/fonts/inter.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Inter:Semi Bold';
+  src: url('/fonts/inter.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 600;
+}
+
+:root {
+  --app-sidebar: calc(var(--y-core-size-spacing-12-x) * 5);
+  --app-rail: var(--y-core-size-spacing-12-x);
+  --app-topbar: var(--y-core-size-spacing-11-x);
+  --app-content-max: calc(var(--y-core-size-spacing-12-x) * 20);
+  --app-form-max: calc(var(--y-core-size-spacing-12-x) * 16);
+  --app-action-width: calc(var(--y-core-size-spacing-12-x) * 4);
+  --app-frame-inset: var(--y-core-size-spacing-2-x);
+  --app-table-row: calc(var(--y-core-size-spacing-7-x) * 2);
+  --app-table-header-stroke: calc(var(--y-core-size-spacing-0-5-x));
+  --app-display-font-family: 'Inter:Bold';
+  --app-display-font-size: calc(var(--y-core-size-spacing-8-x));
+  --app-display-line-height: var(--y-core-size-spacing-10-x);
+  --app-display-font-weight: 700;
+  --app-body-font-family: 'Inter:Regular';
+  --app-medium-font-family: 'Inter:Medium';
+  --y-core-font-family: var(--app-body-font-family);
+  --y-core-typography-header-h-1-semibold-family: 'Inter:Semi Bold';
+  --y-core-typography-header-h-2-semibold-family: 'Inter:Semi Bold';
+  --y-core-typography-header-h-3-semibold-family: 'Inter:Semi Bold';
+  --y-core-typography-header-h-4-semibold-family: 'Inter:Semi Bold';
+  --y-core-typography-paragraph-p-0-regular-family: var(--app-body-font-family);
+  --y-core-typography-paragraph-p-0-medium-family: var(--app-medium-font-family);
+  --y-core-typography-paragraph-p-1-regular-family: var(--app-body-font-family);
+  --y-core-typography-paragraph-p-1-medium-family: var(--app-medium-font-family);
+  --y-core-typography-paragraph-p-2-regular-family: var(--app-body-font-family);
+  --y-core-typography-paragraph-p-2-medium-family: var(--app-medium-font-family);
+  --y-core-typography-subhead-s-1-medium-family: var(--app-medium-font-family);
+  --y-core-typography-subhead-s-1-semibold-family: 'Inter:Semi Bold';
+  --y-core-typography-annotation-a-1-regular-family: var(--app-body-font-family);
+  --y-core-typography-annotation-a-1-medium-family: var(--app-medium-font-family);
+  --y-core-typography-annotation-a-2-regular-family: var(--app-body-font-family);
+  --y-core-typography-annotation-a-2-medium-family: var(--app-medium-font-family);
+  --y-core-typography-annotation-a-3-medium-family: var(--app-medium-font-family);
+  --y-core-typography-annotation-a-4-medium-family: var(--app-medium-font-family);
+  font-family: var(--app-body-font-family), sans-serif;
+  color: var(--y-core-color-text-primary);
+  background: var(--y-core-color-surface-secondary-fill);
+}
